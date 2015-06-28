@@ -1,0 +1,55 @@
+charan@localhost:~/torch/tutorials/2_supervised$ th -i doall.lua -threads 4 -size small -model mlp -loss nll -save /home/charan/log/ -optimization ASGD learningRate 1e-2 -batchSize 1 
+
+
+
+luarocks install lib name
+
+
+
+dofile 'file.lua'
+
+
+sudo apt-get install qt5-default
+
+itorch notebook
+
+
+sudo add-apt-repository ppa:samrog131/ppa
+
+th -i 4_train.lua -save trainlog -visualize true -plot true 
+
+
+
+qlua train-on-cifar.lua -save 'run2' -network '/home/charan/torch/demos/train-on-cifar/train-on-cifar/cifar.net' -full 
+
+
+charan@localhost:~/torch/demos/person-detector$ sudo qlua run.lua -o run3 >run3.log
+
+
+charan@localhost:~/torch/demos/person-detector$ qlua -i rundemo.lua  -n run3/model.net
+
+
+charan@localhost:~/torch/demos/tracker$ sudo qlua -i run.lua -s dataset -p /TLD/05_pedestrian3  -p 'tlog' -N 
+
+charan@localhost:~/torch/demos/tracker$ sudo qlua -i run.lua -s video -S video -v video1_dpm.mp4 -l 76 -r 30 -N 
+
+
+sudo qlua -i run.lua -s video  -l 76 'tlog' -N 
+.startpagina.nl
+
+
+ sudo qlua test3.lua -n 'run5/model.net' -b 1 >size3.log
+
+ sudo qlua test5.lua -n 'run5/model.net' -b 1 >size5.log
+
+
+--[=====[ 
+
+--]=====]
+
+
+
+sudo qlua test4onnewImages.lua -n 'run5/model.net' -b 1 >newImages.log
+
+
+sudo qlua doall.lua
